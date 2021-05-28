@@ -167,5 +167,6 @@ export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
       postsPagination,
       preview,
     },
+    revalidate: 1800,
   };
 };
