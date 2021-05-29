@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Footer from '../components/Footer';
 
 export default class MyDocument extends Document {
   render() {
@@ -21,6 +22,8 @@ export default class MyDocument extends Document {
             src="https://static.cdn.prismic.io/prismic.js?new=true&repo=spacetraveling02"
           ></script>
         </body>
+
+        {/* <Footer /> */}
       </Html>
     );
   }

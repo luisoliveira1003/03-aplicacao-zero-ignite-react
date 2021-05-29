@@ -13,6 +13,7 @@ import { format } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import React, { useState } from 'react';
 import Head from 'next/head';
+import Footer from '../components/Footer';
 
 interface Post {
   uid?: string;
@@ -132,6 +133,8 @@ export default function Home({
           </aside>
         )}
       </main>
+
+      <Footer />
     </>
   );
 }
